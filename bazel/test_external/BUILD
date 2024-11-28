@@ -19,6 +19,8 @@ BASE_LINKOPTS = [
     "-sMODULARIZE",
     "--pre-js",
     "hello-embind-interface.js",
+    "--emit-tsd",
+    "./a.d.ts"
 ]
 
 RELEASE_OPTS = [
